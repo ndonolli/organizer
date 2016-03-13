@@ -2,11 +2,6 @@
 import os
 from shutil import move
 
-#TODO:
-# - IMPORTANT: change mechanism for finding file ext (.endswith() should work)
-# - Add CLI and args to initiate program
-# - Add os check for OSX/Linux, Windows (right filepath format etc.)
-
 #globals
 HOME = os.getcwd() + '/'
 ONLYFILES = [f for f in os.listdir(HOME) if os.path.isfile(os.path.join(HOME, f))]
