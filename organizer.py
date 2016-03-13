@@ -10,34 +10,34 @@ LOGPATH = (HOME + 'OrganizerLog.txt')
 MOVED_FILES = []
 
 docs =	[	'.doc',
-			'.docx',
-			'.pdf',
-			'.txt',
-			'.pages',
-		]
+		'.docx',
+		'.pdf',
+		'.txt',
+		'.pages',
+	]
 
 audio =	[	'.mp3',
-			'.wav',
-			'.mp4',
-			'.ogg',
-		]
+		'.wav',		
+		'.mp4',
+		'.ogg',
+	]
 
 pics =	[	'.jpg',
-			'.jpeg',
-			'.tiff',
-			'.png',
-			'.bmp',
-		]
+		'.jpeg',
+		'.tiff',
+		'.png',
+		'.bmp',
+	]
 
 videos =[	'.mov',
-			'.mpeg',
-			'.mpg',
-			'.flv',
-			'.avi',
-		]
+		'.mpeg',
+		'.mpg',
+		'.flv',
+		'.avi',
+	]
 
 python =[	'.py',
-		]
+	]
 
 EXT_LIST = {'Documents': docs, 'Audio Files': audio, 'Videos': videos,
 			'Pictures': pics, 'Python Scripts': python}
